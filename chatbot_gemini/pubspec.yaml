@@ -1,5 +1,6 @@
 name: chatbot_gemini
-description: "A new Flutter project."
+description: "Chatbot Gemini is a Flutter package that provides a chatbot widget
+  for your Flutter app."
 publish_to: 'none'
 version: 0.1.0
 
@@ -7,13 +8,16 @@ environment:
   sdk: '>=3.2.6 <4.0.0'
 
 dependencies:
+  dash_chat_2: ^0.0.20
   flutter:
     sdk: flutter
+  flutter_gemini: ^2.0.3
+  image_picker: ^1.0.8
 
 dev_dependencies:
+  flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
